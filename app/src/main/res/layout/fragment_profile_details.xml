@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/_15sdp"
-            android:background="@drawable/ic_left_arraow"
+            android:background="@drawable/arrowback"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_15sdp"
-                android:background="@drawable/border"
+                android:background="@drawable/profile_id"
                 android:paddingBottom="@dimen/_20sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -195,6 +195,15 @@
                     app:layout_constraintStart_toStartOf="@id/user_name"
                     app:layout_constraintTop_toBottomOf="@id/mobile_number" />
 
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/group_34102"
+                       android:layout_marginStart="@dimen/_3sdp"
+                       app:layout_constraintTop_toTopOf="@id/licence_number_txt"
+                       app:layout_constraintBottom_toBottomOf="@id/licence_number_txt"
+                       app:layout_constraintStart_toEndOf="@id/licence_number_txt"/>
+
                 <TextView
                     android:id="@+id/licence_number"
                     android:layout_width="wrap_content"
@@ -204,6 +213,41 @@
                     android:textSize="14sp"
                     app:layout_constraintStart_toStartOf="@id/user_name"
                     app:layout_constraintTop_toBottomOf="@id/licence_number_txt" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_19sdp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:background="@drawable/update_new"
+                        android:paddingVertical="@dimen/_5sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        app:layout_constraintTop_toTopOf="@id/licence_number_txt"
+                        app:layout_constraintBottom_toBottomOf="@id/licence_number">
+
+                        <ImageView
+                            android:id="@+id/img_update_new"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/uddatenew"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"/>
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="Update New"
+                             android:textAllCaps="false"
+                             android:textColor="#0F6FB5"
+                             android:textSize="12sp"
+                             app:layout_constraintStart_toEndOf="@id/img_update_new"
+                             app:layout_constraintTop_toTopOf="@id/img_update_new"
+                             app:layout_constraintBottom_toBottomOf="@id/img_update_new"/>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
                 <TextView
                     android:id="@+id/services_txt"
@@ -234,7 +278,7 @@
                     android:layout_marginHorizontal="@dimen/_15sdp"
                     android:layout_marginTop="@dimen/_20sdp"
                     android:background="@drawable/border"
-                    android:backgroundTint="@color/white_200"
+                    android:backgroundTint="#EEEEEE"
                     android:gravity="center"
                     android:orientation="horizontal"
                     app:layout_constraintBottom_toBottomOf="parent"

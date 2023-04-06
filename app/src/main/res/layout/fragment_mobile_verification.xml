@@ -21,20 +21,67 @@
             android:layout_height="match_parent">
 
 
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout_arrwback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_9sdp"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <ImageView
+                    android:id="@+id/img_arrowback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arrowback"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+                <ImageView
+                    android:id="@+id/img_support"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_support"
+                    android:layout_marginEnd="@dimen/_40sdp"
+                    app:layout_constraintTop_toTopOf="@id/img_arrowback"
+                    app:layout_constraintBottom_toBottomOf="@id/img_arrowback"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Help"
+                    android:textSize="12sp"
+                    android:textColor="#0F6FB5"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    app:layout_constraintTop_toTopOf="@id/img_support"
+                    app:layout_constraintBottom_toBottomOf="@id/img_support"
+                    app:layout_constraintStart_toEndOf="@id/img_support"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txt_mobile_nm_verification"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginTop="@dimen/_30sdp"
-                android:text="@string/mobile_number_nverification"
-                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_15sdp"
+                 android:textAllCaps="false"
+                android:text="Mobile Number Verification"
                 android:textColor="@color/black"
-                android:textSize="32sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 app:fontFamily="@font/inter_bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+               app:layout_constraintTop_toBottomOf="@id/constraintLayout_arrwback"/>
 
             <EditText
                 android:id="@+id/mobile_no"
@@ -49,8 +96,8 @@
                 android:singleLine="true"
                 app:fontFamily="@font/inter_semibold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/textView2"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintStart_toStartOf="@+id/txt_mobile_nm_verification"
+                app:layout_constraintTop_toBottomOf="@+id/txt_mobile_nm_verification" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -58,8 +105,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_15sdp"
                 android:layout_marginTop="13dp"
-                android:text="@string/enter_your_main_number_to_be_used_ntaking_orders"
-                android:textAllCaps="false"
+                android:text="Enter your main number to be used taking orders"
+                 android:textAllCaps="false"
                 android:textColor="@color/white_500"
                 android:textSize="14sp"
                 app:fontFamily="@font/inter_semibold"

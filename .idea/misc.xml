@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/drawable/border.xml" value="0.2265" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/drawable/document_details.xml" value="0.2265" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/drawable/ic_info_background.xml" value="0.2265" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/drawable/learn_more.xml" value="0.2265" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/drawable/male.xml" value="0.2265" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/drawable/profile_id.xml" value="0.2265" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/drawable/update_new.xml" value="0.2265" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/address_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/earning_detail_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_aadhar_verification.xml" value="0.2" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_bank_account_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_cancellations_rate.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_click_selfie.xml" value="0.264" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_completion_rate.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_document_details.xml" value="0.264" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_driving_licence_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_filter.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_language_settings.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_mobile_otp_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_mobile_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_pan_verification.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_performance_details.xml" value="0.264" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_personal_verification.xml" value="0.264" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_profile_details.xml" value="0.2" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_ratings.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_select_location.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_select_vehicle.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_select_zone.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/fragment_vehicle_details.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/performance_item.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/selected_city_confirmation.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/seleted_zone_confirmation.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/vehicle_confirmation.xml" value="0.25" />
+        <entry key="..\:/Users/ritik/AndroidStudioProjects/HandoverNewRiderUI/HandoverNewRider/app/src/main/res/layout/zone_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

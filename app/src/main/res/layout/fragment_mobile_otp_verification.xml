@@ -54,7 +54,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/_15sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_22sdp"
                 android:textColor="@color/white_500"
                 app:bar_active_color="@color/white_300"
                 app:bar_enabled="true"
@@ -63,8 +63,7 @@
                 app:bar_margin="@dimen/_5sdp"
                 app:height="@dimen/_40sdp"
                 app:layout_constraintEnd_toEndOf="@+id/submit_otp"
-                app:layout_constraintStart_toStartOf="@+id/submit_otp"
-                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
                 app:length="6"
                 app:otp_box_background="@drawable/edit_text_background"
                 app:otp_text_size="24dp"
@@ -74,7 +73,7 @@
                 android:id="@+id/constraintLayout2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="104dp"
+                android:layout_marginTop="@dimen/_18sdp"
                 app:layout_constraintStart_toStartOf="@+id/textView5"
                 app:layout_constraintTop_toBottomOf="@+id/textView6">
 

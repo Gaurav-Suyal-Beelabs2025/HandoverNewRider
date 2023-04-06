@@ -37,8 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_15sdp"
                     android:layout_marginTop="@dimen/_15sdp"
-                    android:padding="@dimen/_5sdp"
-                     android:background="@drawable/ic_left_arraow"
+                     android:background="@drawable/arrowback"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
